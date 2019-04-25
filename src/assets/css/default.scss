@@ -1,0 +1,14 @@
+$primary-color: #13D1BE;
+
+
+@mixin clear-float {
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin my-header {
+  padding: 0;
+}
